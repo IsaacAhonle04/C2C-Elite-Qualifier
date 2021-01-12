@@ -32,5 +32,4 @@ The defualt version of Python used by repl as of 1/12/2021 is Python Version 3.7
 
 ## Disclaimers
 
-I was not sure how to make the chatbot interactive (hence the description being "A not-so-interactive chatbot system). So, I simply had the code spit out randomly selected generic replies based off of the punctuation in the input provided by the user. For example, it will spit out something like "I'm not sure when asked a question" or "Interesting" when presented a statement. 
-Because of this, don't expect to be able to hold an actual conversation with the chatbot. I'm a High School Junior, not an AI developer.
+I was not sure how to make the chatbot interactive (hence the description being "A not-so-interactive chatbot system). So, I simply had the code spit out randomly selected generic replies based off of the punctuation in the input provided by the user. For example, it will spit out something like "I'm not sure when asked a question" or "Interesting" when presented a statement. Because of this, don't expect to be able to hold an actual conversation with the chatbot. I'm a High School Student, not an AI developer.
