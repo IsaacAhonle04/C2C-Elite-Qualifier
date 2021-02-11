@@ -3,8 +3,8 @@ import random
 def generate_response_1(user_input):
   response_set_1 = [
     "Interesting!",
-    "Nice one!",
-    "Me too!"
+   # "Nice one!",
+   # "Me too!"
   ]
   return random.choice(response_set_1)
 
