@@ -1,31 +1,31 @@
 import random
 
-def generate_response_1(user_input):
-  response_set_1 = [
+def generate_response_1b(user_input):
+  response_set_1b = [
     "Interesting!",
    # "Nice one!",
    # "Me too!"
   ]
-  return random.choice(response_set_1)
+  return random.choice(response_set_1b)
 
-def generate_response_2(user_input):
-  response_set_2 = [
+def generate_response_2b(user_input):
+  response_set_2b = [
     "Wow!",
     "Cool!",
     "I didn't know that!"
   ]
-  return random.choice(response_set_2)
+  return random.choice(response_set_2b)
 
-def generate_response_3(user_input):
-  response_set_3 = [
+def generate_response_3b(user_input):
+  response_set_3b = [
     "To Answer your question, I'm not quite sure...",
     "I'll have to think about that one!",
     "Hmmm... I don't have an answer right now."
   ]
-  return random.choice(response_set_3)  
+  return random.choice(response_set_3b)  
 
-def generate_response_4(user_input):
-  response_set_4 = [
+def generate_response_4b(user_input):
+  response_set_4b = [
     "Interesting!",
     "Nice one!",
     "Me too!",    
@@ -33,7 +33,7 @@ def generate_response_4(user_input):
     "Cool!",
     "I didn't know that!"    
   ]
-  return random.choice(response_set_4)
+  return random.choice(response_set_4b)
 
 def generate_response_bad(user_input):
   doing_bad = [
@@ -61,18 +61,18 @@ def init_chat():
         user_input = input(generate_response_bad(user_input) + "\n")
     elif "!" in user_input:
       if "." in user_input:
-        user_input = input(generate_response_4(user_input) + "\n")
+        user_input = input(generate_response_4b(user_input) + "\n")
       else:
-        user_input = input(generate_response_1(user_input) + "\n")
+        user_input = input(generate_response_1b(user_input) + "\n")
     elif "." in user_input:
       if "!" in user_input:
-        user_input = input(generate_response_4(user_input) + "\n")
+        user_input = input(generate_response_4b(user_input) + "\n")
       else:
-        user_input = input(generate_response_2(user_input) + "\n")
+        user_input = input(generate_response_2b(user_input) + "\n")
     elif "?" in user_input:
-        user_input = input(generate_response_3(user_input) + "\n")   
+        user_input = input(generate_response_3b(user_input) + "\n")   
     else:
-        user_input = input(generate_response_4(user_input) + "\n")         
+        user_input = input(generate_response_4b(user_input) + "\n")         
 
 
 if __name__ == "__main__":
