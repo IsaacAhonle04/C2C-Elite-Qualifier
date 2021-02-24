@@ -3,116 +3,116 @@ import random
 #Base personality response sets
 def generate_response_1b(user_input):
   response_set_1b = [
-    "Interesting!",
-    "Nice one!",
-    "Me too!"
+    "\nInteresting!",
+    "\nNice one!",
+    "\nMe too!"
   ]
   return random.choice(response_set_1b)
 
 def generate_response_2b(user_input):
   response_set_2b = [
-    "Wow!",
-    "Cool!",
-    "I didn't know that!"
+    "\nWow!",
+    "\nCool!",
+    "\nI didn't know that!"
   ]
   return random.choice(response_set_2b)
 
 def generate_response_3b(user_input):
   response_set_3b = [
-    "To Answer your question, I'm not quite sure...",
-    "I'll have to think about that one!",
-    "Hmmm... I don't have an answer right now."
+    "\nTo Answer your question, I'm not quite sure...",
+    "\nI'll have to think about that one!",
+    "\nHmmm... I don't have an answer right now."
   ]
   return random.choice(response_set_3b)  
 
 def generate_response_4b(user_input):
   response_set_4b = [
-    "Interesting!",
-    "Nice one!",
-    "Me too!",    
-    "Wow!",
-    "Cool!",
-    "I didn't know that!"    
+    "\nInteresting!",
+    "\nNice one!",
+    "\nMe too!",    
+    "\nWow!",
+    "\nCool!",
+    "\nI didn't know that!"    
   ]
   return random.choice(response_set_4b)
 
 def generate_response_bad(user_input):
   doing_bad = [
-    "Same here...",    
-    "I'm sorry to hear that :(",   
+    "\nSame here...",    
+    "\nI'm sorry to hear that :(",   
   ]
   return random.choice(doing_bad)
 
 def generate_response_good(user_input):
   doing_good = [
-    "Same here!",    
-    "Good to hear! :)",   
+    "\nSame here!",    
+    "\nGood to hear! :)",   
   ]
   return random.choice(doing_good)
 
 #Cold personality response sets
 def generate_response_1c(user_input):
   response_set_1c = [
-    "Interesting, considering it's coming from you",
-    "Mk",
-    "Huh. Cool."
+    "\nInteresting, considering it's coming from you",
+    "\nMk",
+    "\nHuh. Cool."
   ]
   return random.choice(response_set_1c)
 
 def generate_response_2c(user_input):
   response_set_2c = [
-    "Hm.",
-    "Oh?",
-    "Ah, alright."
+    "\nHm.",
+    "\nOh?",
+    "\nAh, alright."
   ]
   return random.choice(response_set_2c)
 
 def generate_response_3c(user_input):
   response_set_3c = [
-    "Uh, could you repeat that?",
-    "Jeez, being nosy now are we?",
-    "Huh?"
+    "\nUh, could you repeat that?",
+    "\nJeez, being nosy now are we?",
+    "\nHuh?"
   ]
   return random.choice(response_set_3c)
 
 def generate_response_4c(user_input):
   response_set_4c = [
-    "Cold set 4 response 1",
-    "Cold set 4 response 2",
-    "Cold set 4 response 3"
+    "\nCold set 4 response 1",
+    "\nCold set 4 response 2",
+    "\nCold set 4 response 3"
   ]
   return random.choice(response_set_4c)
 
 #Snarky personality response sets
 def generate_response_1s(user_input):
   response_set_1s = [
-    "Snarky set 1 response 1",
-    "Snarky set 1 response 2",
-    "Snarky set 1 response 3"
+    "\nSnarky set 1 response 1",
+    "\nSnarky set 1 response 2",
+    "\nSnarky set 1 response 3"
   ]
   return random.choice(response_set_1s)
 
 def generate_response_2s(user_input):
   response_set_2s = [
-    "Snarky set 2 response 1",
-    "Snarky set 2 response 2",
-    "Snarky set 2 response 3"
+    "\nSnarky set 2 response 1",
+    "\nSnarky set 2 response 2",
+    "\nSnarky set 2 response 3"
   ]
   return random.choice(response_set_2s)
 
 def generate_response_3s(user_input):
   response_set_3s = [
-    "Snarky set 3 response 1",
-    "Snarky set 3 response 2",
-    "Snarky set 3 response 3"
+    "\nSnarky set 3 response 1",
+    "\nSnarky set 3 response 2",
+    "\nSnarky set 3 response 3"
   ]
   return random.choice(response_set_3s)
 
 def generate_response_4s(user_input):
   response_set_4s = [
-    "Snarky set 4 response 1",
-    "Snarky set 4 response 2",
-    "Snarky set 4 response 3"
+    "\nSnarky set 4 response 1",
+    "\nSnarky set 4 response 2",
+    "\nSnarky set 4 response 3"
   ]
   return random.choice(response_set_4s)
 
